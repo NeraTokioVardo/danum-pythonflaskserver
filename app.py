@@ -7,6 +7,10 @@ app = Flask("My Flask Application")
 def hello():
     return "<h1>Hello World from my fork!</h1>"
 
+@app.route("/goodbye")
+def hello():
+    return "<h1>Goodbye from my app!</h1>"
+
 
 if __name__=="__main__":
     app.run(debug=True) 
