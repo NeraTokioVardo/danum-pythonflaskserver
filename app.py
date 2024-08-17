@@ -8,7 +8,7 @@ def hello():
     return "<h1>Hello World from my fork!</h1>"
 
 @app.route("/goodbye")
-def hello():
+def goodbye():
     return "<h1>Goodbye from my app!</h1>"
 
 
